@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="EE20eetftKZOwXdRZ5R3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HcD1nfCG14ShovWIKrkj-36" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Заведение" vertex="1">
+          <mxGeometry height="120" width="140" x="470" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-37" parent="HcD1nfCG14ShovWIKrkj-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Заведения (PK) SERIAL" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-38" parent="HcD1nfCG14ShovWIKrkj-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Навзание VARCHAR(100)" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-39" parent="HcD1nfCG14ShovWIKrkj-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Адрес&amp;nbsp; VARCHAR(100)" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-40" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Танец" vertex="1">
+          <mxGeometry height="120" width="140" x="790" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-41" parent="HcD1nfCG14ShovWIKrkj-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID танца (PK ) SERIAL" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-42" parent="HcD1nfCG14ShovWIKrkj-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Название _Типа VARCHAR(100)" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-43" parent="HcD1nfCG14ShovWIKrkj-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Заведения (FK) INT" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-44" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Посетитель_Танец" vertex="1">
+          <mxGeometry height="90" width="140" x="1050" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-45" parent="HcD1nfCG14ShovWIKrkj-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Посетителя (FK) INT" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-46" parent="HcD1nfCG14ShovWIKrkj-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Танца (FK) INT" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Музыкант_Инструмент" vertex="1">
+          <mxGeometry height="90" width="180" x="970" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-48" parent="HcD1nfCG14ShovWIKrkj-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Музыкант(FK) INT" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-49" parent="HcD1nfCG14ShovWIKrkj-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Инструмент (FK) INT" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-50" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Музыкант" vertex="1">
+          <mxGeometry height="90" width="140" x="670" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-51" parent="HcD1nfCG14ShovWIKrkj-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID (PK) SERIAL" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-52" parent="HcD1nfCG14ShovWIKrkj-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Имя VARCHAR(100)" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-53" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Посетитель" vertex="1">
+          <mxGeometry height="120" width="140" x="860" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-54" parent="HcD1nfCG14ShovWIKrkj-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID (PK) SERIAL" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-55" parent="HcD1nfCG14ShovWIKrkj-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Имя VARCHAR (100)" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-56" parent="HcD1nfCG14ShovWIKrkj-53" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Пол ENUM(&#39;М&#39;,&#39;Ж&#39;)" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-57" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Выступление" vertex="1">
+          <mxGeometry height="120" width="140" x="740" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-58" parent="HcD1nfCG14ShovWIKrkj-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID (PK) SERIAL" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-59" parent="HcD1nfCG14ShovWIKrkj-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Описание TEXT" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-60" parent="HcD1nfCG14ShovWIKrkj-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Заведения (FK) INT" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-61" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Выступление_Музыкант" vertex="1">
+          <mxGeometry height="90" width="140" x="1030" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-62" parent="HcD1nfCG14ShovWIKrkj-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Выступления (FK) INT" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-63" parent="HcD1nfCG14ShovWIKrkj-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID_Музыкант (FK) INT" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-64" edge="1" parent="1" source="HcD1nfCG14ShovWIKrkj-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" target="HcD1nfCG14ShovWIKrkj-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-65" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Инструмент" vertex="1">
+          <mxGeometry height="90" width="140" x="670" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-66" parent="HcD1nfCG14ShovWIKrkj-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ID (PK) INT" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-67" parent="HcD1nfCG14ShovWIKrkj-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Название VARCHAR(100)" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-68" edge="1" parent="1" source="HcD1nfCG14ShovWIKrkj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" target="HcD1nfCG14ShovWIKrkj-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-69" edge="1" parent="1" source="HcD1nfCG14ShovWIKrkj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" target="HcD1nfCG14ShovWIKrkj-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-70" edge="1" parent="1" source="HcD1nfCG14ShovWIKrkj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" target="HcD1nfCG14ShovWIKrkj-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-71" edge="1" parent="1" source="HcD1nfCG14ShovWIKrkj-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" target="HcD1nfCG14ShovWIKrkj-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-72" edge="1" parent="1" source="HcD1nfCG14ShovWIKrkj-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" target="HcD1nfCG14ShovWIKrkj-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-73" edge="1" parent="1" source="HcD1nfCG14ShovWIKrkj-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" target="HcD1nfCG14ShovWIKrkj-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcD1nfCG14ShovWIKrkj-74" edge="1" parent="1" source="HcD1nfCG14ShovWIKrkj-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" target="HcD1nfCG14ShovWIKrkj-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
